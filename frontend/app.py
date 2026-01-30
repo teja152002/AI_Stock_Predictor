@@ -4,7 +4,8 @@ import requests
 # -----------------------------
 # CONFIG
 # -----------------------------
-API_URL = "http://127.0.0.1:8000/analyze"
+# API_URL = "http://127.0.0.1:8000/analyze" // this is for local host
+API_URL = "https://ai-stock-predictor-qb2c.onrender.com/analyze"  # this is for deployment hosting.
 
 st.set_page_config(
     page_title="AI Stock Market Analyst",
